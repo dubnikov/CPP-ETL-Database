@@ -5,6 +5,7 @@ using namespace std;
 // Gen. pseudo random number for further auth use.
 
 int genPse(int x) {
+    srand(666);
     for (int x = 1; x <= 10; x++) {
         cout << 1 + (rand() % 6) << endl;
     }
