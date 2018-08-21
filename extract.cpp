@@ -2,7 +2,7 @@
 #include <cstdlib>
 using namespace std;
 
-// Gen. pseudo random number for 
+// Gen. pseudo random number for further auth use.
 
 int genPse(int x) {
     for (int x = 1; x <= 10; x++) {
